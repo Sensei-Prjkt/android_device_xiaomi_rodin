@@ -182,6 +182,7 @@ ro.vendor.mtk_airegionpq_adaptive_support=0
 ro.vendor.mtk_sdr_adaptive_support=0
 ro.vendor.mtk_svp_on_mtee_support=1
 ro.vendor.mtk_widevine_drm_l3_support=1
+ro.launcher.blur.appLaunch=0
 
 # DRM
 drm.service.enabled=true
