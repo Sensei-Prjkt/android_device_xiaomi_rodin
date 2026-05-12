@@ -15,6 +15,21 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/rodin/device.mk)
 TARGET_SHIPS_MIUICAMERA := true
 
+# Axion Flags
+AXION_CAMERA_REAR_INFO := 50,8
+AXION_CAMERA_FRONT_INFO := 20
+AXION_MAINTAINER := SENX|センクス
+AXION_PROCESSOR := Dimensity_8400U
+TORCH_STR_SUPPORTED := true
+TARGET_INCLUDE_AXFX := true
+TARGET_ENABLE_BLUR := true
+TARGET_TOUCH_BOOST_SUPPORTED := true
+TARGET_INCLUDES_LOS_PREBUILTS := true
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := schedutil
+PERF_ANIM_OVERRIDE := true
+
 PRODUCT_DEVICE := rodin
 PRODUCT_NAME := lineage_rodin
 PRODUCT_BRAND := POCO
